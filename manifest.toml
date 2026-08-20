@@ -17,7 +17,7 @@ demo = "https://wikimore.private.coffee/"
 code = "https://git.private.coffee/privatecoffee/wikimore"
 
 [integration]
-yunohost = ">= 12.1.41"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
