@@ -32,11 +32,18 @@ ynh_script_progression "Installing Python dependencies..."
 pushd $install_dir
 	ynh_safe_rm "$install_dir/venv"
     python3 -m venv $install_dir/venv
-    ynh_hide_warnings $install_dir/venv/bin/pip install --upgrade pip 
+    ynh_hide_warnings $install_dir/venv/bin/pip install --upgrade pip gunicorn python-dotenv
     ynh_hide_warnings $install_dir/venv/bin/pip install wikimore==$(ynh_app_upstream_version)
 popd
 
 chown -R $app:$app "$install_dir"
+
+#=================================================
+# APP CONFIG FILES
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template=".env" --destination="$install_dir/.env"
 
 #=================================================
 # START SYSTEMD SERVICE

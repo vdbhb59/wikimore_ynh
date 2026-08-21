@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Simple frontend for Wikimedia projects
 
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://wikimore.private.coffee/)
-[![Version: 0.1.18~ynh1](https://img.shields.io/badge/Version-0.1.18~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/wikimore/)
+[![Version: 0.1.23~ynh1](https://img.shields.io/badge/Version-0.1.23~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/wikimore/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/wikimore"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>

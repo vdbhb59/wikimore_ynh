@@ -7,7 +7,7 @@ name = "Wikimore"
 description.en = "Simple frontend for Wikimedia projects"
 description.fr = "Interface simple pour les projets Wikimedia"
 
-version = "0.1.18~ynh1"
+version = "0.1.23~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -17,7 +17,7 @@ demo = "https://wikimore.private.coffee/"
 code = "https://git.private.coffee/privatecoffee/wikimore"
 
 [integration]
-yunohost = ">= 12.1.39"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
