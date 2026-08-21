@@ -9,7 +9,7 @@ Group=__APP__
 Environment="WIKIMORE_HOST=127.0.0.1"
 Environment="WIKIMORE_PORT=__PORT__"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/venv/bin/gunicorn wikimore.app:app
+ExecStart=__INSTALL_DIR__/venv/bin/gunicorn -b 127.0.0.1:__PORT__ wikimore.app:app
 
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
