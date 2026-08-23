@@ -7,7 +7,7 @@ name = "Wikimore"
 description.en = "Simple frontend for Wikimedia projects"
 description.fr = "Interface simple pour les projets Wikimedia"
 
-version = "0.1.23~ynh1"
+version = "0.1.26~ynh1"
 
 maintainers = ["eric_G"]
 
